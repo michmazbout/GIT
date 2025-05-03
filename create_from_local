@@ -1,0 +1,10 @@
+// When your folder is on your local machine and you didn't create it on github do the following on ubuntu:
+
+sudo apt install gh
+gh auth login
+
+// Open the terminal now in your folder and do the following
+git init
+git add .
+git push -m "bla bla bla"
+gh repo create repo_name --public --source=. --remote=origin --push
