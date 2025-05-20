@@ -6,5 +6,5 @@ gh auth login
 // Open the terminal now in your folder and do the following
 git init
 git add .
-git push -m "bla bla bla"
+git commit -m "bla bla bla"
 gh repo create repo_name --public --source=. --remote=origin --push
